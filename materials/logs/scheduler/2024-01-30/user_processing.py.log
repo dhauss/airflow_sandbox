@@ -621,3 +621,59 @@ IndentationError: expected an indented block
 [2024-01-30T19:18:06.108+0000] {logging_mixin.py:120} INFO - [2024-01-30T19:18:06.107+0000] {dag.py:2585} INFO - Sync 1 DAGs
 [2024-01-30T19:18:06.136+0000] {logging_mixin.py:120} INFO - [2024-01-30T19:18:06.136+0000] {dag.py:3340} INFO - Setting next_dagrun for user_processing to 2024-01-29T00:00:00+00:00, run_after=2024-01-30T00:00:00+00:00
 [2024-01-30T19:18:06.162+0000] {processor.py:176} INFO - Processing /opt/airflow/dags/user_processing.py took 0.809 seconds
+[2024-01-30T19:18:36.903+0000] {processor.py:154} INFO - Started process (PID=3620) to work on /opt/airflow/dags/user_processing.py
+[2024-01-30T19:18:36.905+0000] {processor.py:756} INFO - Processing file /opt/airflow/dags/user_processing.py for tasks to queue
+[2024-01-30T19:18:36.906+0000] {logging_mixin.py:120} INFO - [2024-01-30T19:18:36.906+0000] {dagbag.py:537} INFO - Filling up the DagBag from /opt/airflow/dags/user_processing.py
+[2024-01-30T19:18:37.471+0000] {logging_mixin.py:120} WARNING - /home/airflow/.local/lib/python3.7/site-packages/airflow/models/dag.py:3437 RemovedInAirflow3Warning: Param `schedule_interval` is deprecated and will be removed in a future release. Please use `schedule` instead.
+[2024-01-30T19:18:37.483+0000] {processor.py:766} INFO - DAG(s) dict_keys(['user_processing']) retrieved from /opt/airflow/dags/user_processing.py
+[2024-01-30T19:18:37.711+0000] {logging_mixin.py:120} INFO - [2024-01-30T19:18:37.711+0000] {dag.py:2585} INFO - Sync 1 DAGs
+[2024-01-30T19:18:37.741+0000] {logging_mixin.py:120} INFO - [2024-01-30T19:18:37.741+0000] {dag.py:3340} INFO - Setting next_dagrun for user_processing to 2024-01-29T00:00:00+00:00, run_after=2024-01-30T00:00:00+00:00
+[2024-01-30T19:18:37.763+0000] {processor.py:176} INFO - Processing /opt/airflow/dags/user_processing.py took 0.865 seconds
+[2024-01-30T19:19:07.814+0000] {processor.py:154} INFO - Started process (PID=3678) to work on /opt/airflow/dags/user_processing.py
+[2024-01-30T19:19:07.815+0000] {processor.py:756} INFO - Processing file /opt/airflow/dags/user_processing.py for tasks to queue
+[2024-01-30T19:19:07.817+0000] {logging_mixin.py:120} INFO - [2024-01-30T19:19:07.817+0000] {dagbag.py:537} INFO - Filling up the DagBag from /opt/airflow/dags/user_processing.py
+[2024-01-30T19:19:08.384+0000] {logging_mixin.py:120} WARNING - /home/airflow/.local/lib/python3.7/site-packages/airflow/models/dag.py:3437 RemovedInAirflow3Warning: Param `schedule_interval` is deprecated and will be removed in a future release. Please use `schedule` instead.
+[2024-01-30T19:19:08.394+0000] {processor.py:766} INFO - DAG(s) dict_keys(['user_processing']) retrieved from /opt/airflow/dags/user_processing.py
+[2024-01-30T19:19:08.595+0000] {logging_mixin.py:120} INFO - [2024-01-30T19:19:08.595+0000] {dag.py:2585} INFO - Sync 1 DAGs
+[2024-01-30T19:19:08.623+0000] {logging_mixin.py:120} INFO - [2024-01-30T19:19:08.623+0000] {dag.py:3340} INFO - Setting next_dagrun for user_processing to 2024-01-29T00:00:00+00:00, run_after=2024-01-30T00:00:00+00:00
+[2024-01-30T19:19:08.642+0000] {processor.py:176} INFO - Processing /opt/airflow/dags/user_processing.py took 0.835 seconds
+[2024-01-30T19:19:38.690+0000] {processor.py:154} INFO - Started process (PID=3746) to work on /opt/airflow/dags/user_processing.py
+[2024-01-30T19:19:38.691+0000] {processor.py:756} INFO - Processing file /opt/airflow/dags/user_processing.py for tasks to queue
+[2024-01-30T19:19:38.693+0000] {logging_mixin.py:120} INFO - [2024-01-30T19:19:38.693+0000] {dagbag.py:537} INFO - Filling up the DagBag from /opt/airflow/dags/user_processing.py
+[2024-01-30T19:19:39.181+0000] {logging_mixin.py:120} WARNING - /home/airflow/.local/lib/python3.7/site-packages/airflow/models/dag.py:3437 RemovedInAirflow3Warning: Param `schedule_interval` is deprecated and will be removed in a future release. Please use `schedule` instead.
+[2024-01-30T19:19:39.192+0000] {processor.py:766} INFO - DAG(s) dict_keys(['user_processing']) retrieved from /opt/airflow/dags/user_processing.py
+[2024-01-30T19:19:39.393+0000] {logging_mixin.py:120} INFO - [2024-01-30T19:19:39.392+0000] {dag.py:2585} INFO - Sync 1 DAGs
+[2024-01-30T19:19:39.420+0000] {logging_mixin.py:120} INFO - [2024-01-30T19:19:39.420+0000] {dag.py:3340} INFO - Setting next_dagrun for user_processing to 2024-01-29T00:00:00+00:00, run_after=2024-01-30T00:00:00+00:00
+[2024-01-30T19:19:39.443+0000] {processor.py:176} INFO - Processing /opt/airflow/dags/user_processing.py took 0.759 seconds
+[2024-01-30T19:20:09.533+0000] {processor.py:154} INFO - Started process (PID=3814) to work on /opt/airflow/dags/user_processing.py
+[2024-01-30T19:20:09.535+0000] {processor.py:756} INFO - Processing file /opt/airflow/dags/user_processing.py for tasks to queue
+[2024-01-30T19:20:09.537+0000] {logging_mixin.py:120} INFO - [2024-01-30T19:20:09.537+0000] {dagbag.py:537} INFO - Filling up the DagBag from /opt/airflow/dags/user_processing.py
+[2024-01-30T19:20:10.135+0000] {logging_mixin.py:120} WARNING - /home/airflow/.local/lib/python3.7/site-packages/airflow/models/dag.py:3437 RemovedInAirflow3Warning: Param `schedule_interval` is deprecated and will be removed in a future release. Please use `schedule` instead.
+[2024-01-30T19:20:10.144+0000] {processor.py:766} INFO - DAG(s) dict_keys(['user_processing']) retrieved from /opt/airflow/dags/user_processing.py
+[2024-01-30T19:20:10.341+0000] {logging_mixin.py:120} INFO - [2024-01-30T19:20:10.340+0000] {dag.py:2585} INFO - Sync 1 DAGs
+[2024-01-30T19:20:10.367+0000] {logging_mixin.py:120} INFO - [2024-01-30T19:20:10.366+0000] {dag.py:3340} INFO - Setting next_dagrun for user_processing to 2024-01-29T00:00:00+00:00, run_after=2024-01-30T00:00:00+00:00
+[2024-01-30T19:20:10.386+0000] {processor.py:176} INFO - Processing /opt/airflow/dags/user_processing.py took 0.859 seconds
+[2024-01-30T19:20:40.430+0000] {processor.py:154} INFO - Started process (PID=3871) to work on /opt/airflow/dags/user_processing.py
+[2024-01-30T19:20:40.431+0000] {processor.py:756} INFO - Processing file /opt/airflow/dags/user_processing.py for tasks to queue
+[2024-01-30T19:20:40.433+0000] {logging_mixin.py:120} INFO - [2024-01-30T19:20:40.432+0000] {dagbag.py:537} INFO - Filling up the DagBag from /opt/airflow/dags/user_processing.py
+[2024-01-30T19:20:41.033+0000] {logging_mixin.py:120} WARNING - /home/airflow/.local/lib/python3.7/site-packages/airflow/models/dag.py:3437 RemovedInAirflow3Warning: Param `schedule_interval` is deprecated and will be removed in a future release. Please use `schedule` instead.
+[2024-01-30T19:20:41.054+0000] {processor.py:766} INFO - DAG(s) dict_keys(['user_processing']) retrieved from /opt/airflow/dags/user_processing.py
+[2024-01-30T19:20:41.456+0000] {logging_mixin.py:120} INFO - [2024-01-30T19:20:41.454+0000] {dag.py:2585} INFO - Sync 1 DAGs
+[2024-01-30T19:20:41.485+0000] {logging_mixin.py:120} INFO - [2024-01-30T19:20:41.485+0000] {dag.py:3340} INFO - Setting next_dagrun for user_processing to 2024-01-29T00:00:00+00:00, run_after=2024-01-30T00:00:00+00:00
+[2024-01-30T19:20:41.507+0000] {processor.py:176} INFO - Processing /opt/airflow/dags/user_processing.py took 1.081 seconds
+[2024-01-30T19:21:12.026+0000] {processor.py:154} INFO - Started process (PID=3936) to work on /opt/airflow/dags/user_processing.py
+[2024-01-30T19:21:12.028+0000] {processor.py:756} INFO - Processing file /opt/airflow/dags/user_processing.py for tasks to queue
+[2024-01-30T19:21:12.029+0000] {logging_mixin.py:120} INFO - [2024-01-30T19:21:12.029+0000] {dagbag.py:537} INFO - Filling up the DagBag from /opt/airflow/dags/user_processing.py
+[2024-01-30T19:21:12.679+0000] {logging_mixin.py:120} WARNING - /home/airflow/.local/lib/python3.7/site-packages/airflow/models/dag.py:3437 RemovedInAirflow3Warning: Param `schedule_interval` is deprecated and will be removed in a future release. Please use `schedule` instead.
+[2024-01-30T19:21:12.689+0000] {processor.py:766} INFO - DAG(s) dict_keys(['user_processing']) retrieved from /opt/airflow/dags/user_processing.py
+[2024-01-30T19:21:12.895+0000] {logging_mixin.py:120} INFO - [2024-01-30T19:21:12.894+0000] {dag.py:2585} INFO - Sync 1 DAGs
+[2024-01-30T19:21:12.924+0000] {logging_mixin.py:120} INFO - [2024-01-30T19:21:12.924+0000] {dag.py:3340} INFO - Setting next_dagrun for user_processing to 2024-01-29T00:00:00+00:00, run_after=2024-01-30T00:00:00+00:00
+[2024-01-30T19:21:12.950+0000] {processor.py:176} INFO - Processing /opt/airflow/dags/user_processing.py took 0.928 seconds
+[2024-01-30T19:21:43.031+0000] {processor.py:154} INFO - Started process (PID=4000) to work on /opt/airflow/dags/user_processing.py
+[2024-01-30T19:21:43.033+0000] {processor.py:756} INFO - Processing file /opt/airflow/dags/user_processing.py for tasks to queue
+[2024-01-30T19:21:43.034+0000] {logging_mixin.py:120} INFO - [2024-01-30T19:21:43.034+0000] {dagbag.py:537} INFO - Filling up the DagBag from /opt/airflow/dags/user_processing.py
+[2024-01-30T19:21:43.530+0000] {logging_mixin.py:120} WARNING - /home/airflow/.local/lib/python3.7/site-packages/airflow/models/dag.py:3437 RemovedInAirflow3Warning: Param `schedule_interval` is deprecated and will be removed in a future release. Please use `schedule` instead.
+[2024-01-30T19:21:43.540+0000] {processor.py:766} INFO - DAG(s) dict_keys(['user_processing']) retrieved from /opt/airflow/dags/user_processing.py
+[2024-01-30T19:21:43.741+0000] {logging_mixin.py:120} INFO - [2024-01-30T19:21:43.740+0000] {dag.py:2585} INFO - Sync 1 DAGs
+[2024-01-30T19:21:43.774+0000] {logging_mixin.py:120} INFO - [2024-01-30T19:21:43.773+0000] {dag.py:3340} INFO - Setting next_dagrun for user_processing to 2024-01-29T00:00:00+00:00, run_after=2024-01-30T00:00:00+00:00
+[2024-01-30T19:21:43.806+0000] {processor.py:176} INFO - Processing /opt/airflow/dags/user_processing.py took 0.780 seconds
