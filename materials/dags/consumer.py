@@ -7,15 +7,15 @@ my_file = Dataset("/tmp/my_file.txt")
 
 
 @dag(
-    dag_id="producer",
-    schedule="@daily",
+    dag_id="consumer",
+    schedule=[my_file],
     start_date=datetime(2024, 1, 1),
     catchup=False
 )
-@task(outlets=[my_file])
-def update_dataset():
-    with open(my_file.uri, "a+") as f:
-        f.write("producer update")
+@task
+def read_dataset():
+    with open(my_file.uri, "r") as f:
+        print(f.read())
 
 
-update_dataset()
+read_dataset()
